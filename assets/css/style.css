@@ -734,6 +734,9 @@
 }
 
 /* SERVICE */
+.service{
+    margin-top: 15px;
+}
 .service-index{
     display: flex;
     align-items: center;

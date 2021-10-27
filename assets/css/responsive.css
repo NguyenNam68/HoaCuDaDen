@@ -146,6 +146,10 @@
         margin-left: 2px;
         cursor: pointer;
     }
+
+    .col-xs-12{
+        width: 100%;
+    }
 }
 
 /*Tablet & Mobile*/
@@ -188,5 +192,13 @@
 
     .pagination-item{
         margin: 0;
+    }
+
+    .form-textarea{
+        padding-top: 10px;
+    }
+
+    .contact-right__address span{
+        line-height: 25px;
     }
 }
