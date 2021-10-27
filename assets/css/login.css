@@ -51,19 +51,38 @@
     background-color: #ea3a3c;
 }
 
-.reg-pass{
+.reg-pass,
+.login-control,
+.cancel{
     margin: 10px 0 0;
     font-size: 15px;
 }
 
 .forget-password__link,
-.register__link{
+.register__link,
+.login__link,
+.cancel__link{
     color: var(--text-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .forget-password__link:hover,
-.register__link:hover{
+.register__link:hover,
+.login__link:hover,
+.cancel__link:hover{
     color: var(--primary-color);
     text-decoration: none;
+}
+
+.forget-box{
+    display: none;
+}
+
+.form-open{
+    display: block;
+}
+
+.form-close{
+    display: none;
 }

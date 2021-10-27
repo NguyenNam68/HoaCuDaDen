@@ -684,7 +684,7 @@
                                     <i class="ti-angle-right"></i>
                                 </li>
                                 <li class="bread-crumb-item">
-                                    Đăng nhập
+                                    Đăng ký
                                 </li>
                             </ul>
                         </div>
@@ -696,11 +696,23 @@
 
         <!-- BEGIN MAIN -->
         <main>
-            <div class="grid wide row" id="log">
+            <div class="grid wide row">
                 <div class="col-xs-12 form-box">
-                    <div id="login" class="auth-box">
-                        <h1 class="auth-box__heading">ĐĂNG NHẬP</h1>
-                        <form action="" method="" id="user-login">
+                    <div id="register" class="auth-box">
+                        <h1 class="auth-box__heading">ĐĂNG KÝ</h1>
+                        <form action="" method="" id="user-register">
+                            <div class="input-group input-account">
+                                <label class="input-group__label">
+                                    <i class="input-group__icon ti-user"></i>
+                                </label>
+                                <input type="text" placeholder="Họ" class="form-control">
+                            </div>
+                            <div class="input-group input-account">
+                                <label class="input-group__label">
+                                    <i class="input-group__icon ti-user"></i>
+                                </label>
+                                <input type="text" placeholder="Tên" class="form-control">
+                            </div>
                             <div class="input-group input-account">
                                 <label class="input-group__label">
                                     <i class="input-group__icon ti-email"></i>
@@ -715,43 +727,14 @@
                             </div>
                             <div class="auth-control">
                                 <button class="btn">
-                                    ĐĂNG NHẬP
+                                    ĐĂNG KÝ
                                 </button>
                             </div>
-                            <div class="reg-pass">
-                                <span class="forget-password__link">
-                                    Quên mật khẩu?
-                                </span>
-                                hoặc
-                                <a href="./register.html" class="register__link">
-                                    Đăng ký
+                            <div class="login-control">
+                                Có tài khoản? 
+                                <a href="" class="login__link">
+                                    Đăng nhập
                                 </a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-            <div class="grid wide row forget-box" id="forget">
-                <div class="col-xs-12 form-box">
-                    <div id="forgetpass" class="auth-box" style="margin:auto">
-                        <h1 class="auth-box__heading">CẤP LẠI MẬT KHẨU</h1>
-                        <form action="" method="" id="user-forget">
-                            <div class="input-group input-account">
-                                <label class="input-group__label">
-                                    <i class="input-group__icon ti-email"></i>
-                                </label>
-                                <input type="email" placeholder="Email" class="form-control">
-                            </div>
-                            <div class="auth-control">
-                                <button class="btn">
-                                    GỬI
-                                </button>
-                            </div>
-                            <div class="cancel">
-                                <span class="cancel__link">
-                                    Hủy
-                                </span>
                             </div>
                         </form>
                     </div>
@@ -903,24 +886,5 @@
         </footer>
         <!-- END FOOTER -->
     </div>
-    <script>
-        var cancelbox=document.getElementById('forget');
-        var login=document.getElementById('log');
-        var cancellink=document.querySelector('.cancel__link');
-        var forgetlink=document.querySelector('.forget-password__link');
-
-        function showboxLogin(){
-            cancelbox.classList.remove('form-open');
-            login.classList.remove('form-close');
-        }
-
-        function showboxForget(){
-            login.classList.add('form-close');
-            cancelbox.classList.add('form-open');
-        }
-
-        forgetlink.addEventListener('click', showboxForget);
-        cancellink.addEventListener('click', showboxLogin);
-    </script>
 </body>
 </html>
