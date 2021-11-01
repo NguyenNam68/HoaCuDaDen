@@ -201,4 +201,21 @@
     .contact-right__address span{
         line-height: 25px;
     }
+
+    .cart-title{
+        font-size: 20px;
+    }
+
+    .table-main{
+        display: none;
+    }
+
+    .order-box h3{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .table-mobile{
+        display: block;
+    }
 }

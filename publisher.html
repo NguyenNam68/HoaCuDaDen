@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/mobile.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/shopping.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <title>Họa cụ Chính hãng, Chất lượng - Họa Cụ DA ĐEN</title>
@@ -65,12 +66,12 @@
                     <div class="col-xs-2 col-md-2 col-sm-1">
                         <div class="header__cart-wrap">
                             <div class="header__navbar-cart">
-                                <a href="./cart.html">
+                                <a href="">
                                     <span class="header__navbar-cart-notice">0</span>
                                 </a>
                                 <div class="header__navbar-cart-box">
                                     <div class="header__navbar-cart-mine">
-                                        <a href="./cart.html">Giỏ hàng của bạn</a>
+                                        <a href="">Giỏ hàng của bạn</a>
                                     </div>
                                     <div class="header__navbar-ship">
                                         <a href="" class="header__navbar-ship-link">
@@ -655,7 +656,7 @@
                     </div> 
                     <div class="col-1">
                         <div class="header__navbar-mobile-cart">
-                            <a class="ti-shopping-cart" href="./cart.html"></a>
+                            <a class="ti-shopping-cart"></a>
                             <span class="nav-mobile-cart__notice">0</span>
                         </div>
                     </div>
@@ -676,15 +677,7 @@
                                     <i class="ti-angle-right"></i>
                                 </li>
                                 <li class="bread-crumb-item">
-                                    <a href="" class="bread-crumb-heading">
-                                        Tài khoản
-                                    </a>
-                                </li>
-                                <li class="bread-crumb-item">
-                                    <i class="ti-angle-right"></i>
-                                </li>
-                                <li class="bread-crumb-item">
-                                    Đăng nhập
+                                    Hướng dẫn mua hàng Online
                                 </li>
                             </ul>
                         </div>
@@ -696,65 +689,25 @@
 
         <!-- BEGIN MAIN -->
         <main>
-            <div class="grid wide row" id="log">
-                <div class="col-xs-12 form-box">
-                    <div id="login" class="auth-box">
-                        <h1 class="auth-box__heading">ĐĂNG NHẬP</h1>
-                        <form action="" method="" id="user-login">
-                            <div class="input-group input-account">
-                                <label class="input-group__label">
-                                    <i class="input-group__icon ti-email"></i>
-                                </label>
-                                <input type="email" placeholder="Email" class="form-control">
-                            </div>
-                            <div class="input-group input-account">
-                                <label class="input-group__label">
-                                    <i class="input-group__icon ti-lock"></i>
-                                </label>
-                                <input type="password" placeholder="Mật khẩu" class="form-control">
-                            </div>
-                            <div class="auth-control">
-                                <button class="btn">
-                                    ĐĂNG NHẬP
-                                </button>
-                            </div>
-                            <div class="reg-pass">
-                                <span class="forget-password__link">
-                                    Quên mật khẩu?
-                                </span>
-                                hoặc
-                                <a href="./register.html" class="register__link">
-                                    Đăng ký
-                                </a>
-                            </div>
-                        </form>
-                    </div>
+            <div class="grid wide row one-line">
+                <div class="col-xs-12">
+                    <h1 class="shopping-guide__heading">DÀNH CHO NHÀ CUNG CẤP </h1>
                 </div>
             </div>
-
-            <div class="grid wide row forget-box" id="forget">
-                <div class="col-xs-12 form-box">
-                    <div id="forgetpass" class="auth-box" style="margin:auto">
-                        <h1 class="auth-box__heading">CẤP LẠI MẬT KHẨU</h1>
-                        <form action="" method="" id="user-forget">
-                            <div class="input-group input-account">
-                                <label class="input-group__label">
-                                    <i class="input-group__icon ti-email"></i>
-                                </label>
-                                <input type="email" placeholder="Email" class="form-control">
-                            </div>
-                            <div class="auth-control">
-                                <button class="btn">
-                                    GỬI
-                                </button>
-                            </div>
-                            <div class="cancel">
-                                <span class="cancel__link">
-                                    Hủy
-                                </span>
-                            </div>
-                        </form>
-                    </div>
+            <div class="grid wide row">
+                <div class="col-xs-12">
+                    <p class="publish__article">Các nhà cung cấp vui lòng gửi báo giá, 
+                        cataloge và thông tin sản phẩm muốn hợp tác phân phối với Họa Cụ DA ĐEN, theo các cách thức sau :
+                    </p>
+                    <p class="publish__article">
+                        - Gửi về địa chỉ email : hoacudaden@gmail.com
+                    </p>
+                    <p class="publish__article">
+                        - Đến trực tiếp địa chỉ : 351/5A An Dương Vương, Phường 10, Quận 6, Hồ Chí Minh
+                    </p>
+                    <p class="publish__article">
+                        - Hotline : 0909738828 ( gặp Lợi )
+                    </p>
                 </div>
             </div>
         </main>
@@ -843,10 +796,10 @@
                         </h3>
                         <ul class="footer__list">
                             <li class="footer__item">
-                                <a href="./publisher.html">Dành cho nhà cung cấp</a>
+                                <a href="">Dành cho nhà cung cấp</a>
                             </li>
                             <li class="footer__item">
-                                <a href="./shoppingguide.html">Hướng dẫn mua hàng</a>
+                                <a href="">Hướng dẫn mua hàng</a>
                             </li>
                         </ul>
                     </div>
@@ -903,24 +856,5 @@
         </footer>
         <!-- END FOOTER -->
     </div>
-    <script>
-        var cancelbox=document.getElementById('forget');
-        var login=document.getElementById('log');
-        var cancellink=document.querySelector('.cancel__link');
-        var forgetlink=document.querySelector('.forget-password__link');
-
-        function showboxLogin(){
-            cancelbox.classList.remove('form-open');
-            login.classList.remove('form-close');
-        }
-
-        function showboxForget(){
-            login.classList.add('form-close');
-            cancelbox.classList.add('form-open');
-        }
-
-        forgetlink.addEventListener('click', showboxForget);
-        cancellink.addEventListener('click', showboxLogin);
-    </script>
 </body>
 </html>

@@ -733,6 +733,11 @@
     margin: 48px 0 32px 0;
 }
 
+.publish__article{
+    padding: 0 29px;
+    font-size: 15px;
+}
+
 /* SERVICE */
 .service{
     margin-top: 15px;
