@@ -182,6 +182,10 @@
         margin: 7px 0 0 15px;
     }
 
+    .bread-crumb-mobile{
+        display: none;
+    }
+
     .product-filter__label{
         display: none;
     }
@@ -217,5 +221,21 @@
 
     .table-mobile{
         display: block;
+    }
+
+    .product-detail__hidden{
+        display: none;
+    }
+
+    .btn-control__cart-icon{
+        height: 39px;
+    }
+
+    .btn-control__buy-icon{
+        height: 39px;
+    }
+
+    .banner-index{
+        margin-left: 0;
     }
 }
