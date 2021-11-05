@@ -6,6 +6,11 @@
     font-size: 18px;
     color: #111111;
     font-weight: 700;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 .information-product{
@@ -84,7 +89,12 @@
 }
 
 .shopping-box{
-    justify-content: flex-end;
+    justify-content: center;
+}
+
+.btn-pay{
+    min-width: 200px;
+    min-height: 60px;
 }
 
 .shopping-box a{

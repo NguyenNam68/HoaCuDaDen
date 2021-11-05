@@ -238,4 +238,29 @@
     .banner-index{
         margin-left: 0;
     }
+
+    .smart-phone{
+        padding-left: 15px;
+        margin-top: 1rem;
+    }
+
+    .bb{
+        margin-top: 2.5rem;
+    }
+
+    .title-left h3{
+        font-size: 18px;
+    }
+
+    .gr-total h5{
+        font-size: 16px;
+    }
+
+    #totalprice{
+        font-size: 16px;
+    }
+
+    .mx-2{
+        margin-right: 0 !important;
+    }
 }
